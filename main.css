@@ -231,13 +231,23 @@ ul {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    /* gap: 40px; */
     text-align: left;
   }
 
   .grid img {
     width: 100%;
     height: 100%;
+  }
+
+  section > .grid img {
+    width: 70%;
+    height: auto;
+    justify-self: end;
+  }
+
+  section > .grid:nth-of-type(2) > img {
+    justify-self: start;
   }
 
   .pic-right > div {
@@ -257,7 +267,7 @@ ul {
   }
 
   section > div {
-    width: 100%;
+    width: 80%;
     margin: 0 auto 30px auto;
   }
 
@@ -281,6 +291,10 @@ ul {
   .pri-footer img {
     grid-column: span 4;
     width: 20%;
+  }
+
+  .pri-footer .location {
+    margin-right: 30px;
   }
 
   .pri-footer .social-icons .fa-brand {
