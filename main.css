@@ -231,13 +231,11 @@ ul {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    /* gap: 40px; */
     text-align: left;
   }
 
-  .grid img {
-    width: 100%;
-    height: 100%;
+  .pri-header .grid {
+    gap: 40px;
   }
 
   section > .grid img {
@@ -294,7 +292,7 @@ ul {
   }
 
   .pri-footer .location {
-    margin-right: 30px;
+    margin-right: 40px;
   }
 
   .pri-footer .social-icons .fa-brand {
